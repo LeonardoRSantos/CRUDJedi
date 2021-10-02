@@ -18,9 +18,10 @@ dependencies {
     implementation 'org.jetbrains:annotations:20.1.0'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation group: 'javax.validation', name: 'validation-api', version: '2.0.0.Final'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.4.0-b180830.0359'
 	implementation group: 'com.h2database', name: 'h2', version: '1.4.200'
+	implementation group: 'org.hibernate', name: 'hibernate-core', version: '6.0.0.Alpha9', ext: 'pom'
 
 
 

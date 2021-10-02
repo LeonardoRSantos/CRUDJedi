@@ -17,6 +17,7 @@ import java.util.Optional;
 public class JediController {
 
     @Autowired
+
     private JediRepository repository;
 
     @GetMapping("/jedi")
